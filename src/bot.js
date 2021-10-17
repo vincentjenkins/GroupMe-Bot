@@ -51,5 +51,6 @@ async function postMsg(body) {
 	}
 }
 
+console.log('hey');
 exports.respond = respond;
 exports.postMsg = config.TEST ? (obj) => console.log(obj) : postMsg;
