@@ -4,4 +4,6 @@
   "repository": "https://github.com/vincentjenkins/GroupMe-Bot",
   "logo": "",
   "keywords": []
+  "engines" : [
+    "node" : "14.x"
 }
