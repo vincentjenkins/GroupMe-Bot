@@ -6,7 +6,7 @@ function trigger(msg) {
   return /@Bot/i.test(msg.text);
 }
 
-function respond(msg) {
+async function respond(msg) {
   let sent = sentiment.analyze(msg.text).score;
   let resps = [
     { thres: '-25', resp: '(ಥ﹏ಥ)' },
